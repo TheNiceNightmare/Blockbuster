@@ -40,7 +40,7 @@ namespace Blockbuster.Migrations
             migrationBuilder.InsertData(
                 table: "Movies",
                 columns: new[] { "Id", "Title", "Genre", "Duration" },
-                values: new object[] { 3, "BladeRunner2049", "Science fiction", "2h 43m" });
+                values: new object[] { 3, "Brazil", "Science fiction", "2h 12m" });
 
         }
 
