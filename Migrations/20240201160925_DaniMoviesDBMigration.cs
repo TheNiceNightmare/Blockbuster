@@ -32,6 +32,16 @@ namespace Blockbuster.Migrations
                  columns: new[] { "Id", "Title", "Genre", "Duration" },
                  values: new object[] { 1, "Oblivion", "Science fiction", "2h 4m" });
 
+            migrationBuilder.InsertData(
+                 table: "Movies",
+                 columns: new[] { "Id", "Title", "Genre", "Duration" },
+                 values: new object[] { 2, "BladeRunner2049", "Science fiction", "2h 43m" });
+
+            migrationBuilder.InsertData(
+                table: "Movies",
+                columns: new[] { "Id", "Title", "Genre", "Duration" },
+                values: new object[] { 3, "BladeRunner2049", "Science fiction", "2h 43m" });
+
         }
 
         /// <inheritdoc />
